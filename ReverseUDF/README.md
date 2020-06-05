@@ -1,4 +1,4 @@
-# ExampleUDF
+# ReverseUDF
 
 This is a hive udf. 
 
@@ -6,7 +6,7 @@ Hive UDF's can be used in Spark SQL, without modification.
 
 Not sure if all hive UDF's would work, but certainly this simple one does.
 
-This takes a string and converts to lower case.
+This takes a string and reverses it.
 
 
 
@@ -69,7 +69,7 @@ You could also import the directory into an ide such as intellij, or eclipse and
 
 When the product builds it will generate files in the ```target``` directory. 
 
-```ExampleUDF-1.0-SNAPSHOT.jar``` will be the "jar with dependencies"
+```ReverseUDF-1.0-SNAPSHOT.jar``` will be the "jar with dependencies"
 
 You will be able to run that in databricks or other environments and the dependencies will be bundled with your classes. 
 
