@@ -15,7 +15,7 @@ import org.apache.hadoop.io.*;
     if (unit == null || temp == null)
         return null;
     if (unit == "F") {
-        return (temp - 32) * (5/9);
+        return (temp - 32) * (5.0f/9.0f);
     } else {
         return temp;
     }
